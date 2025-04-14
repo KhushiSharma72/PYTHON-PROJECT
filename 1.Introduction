@@ -1,0 +1,12 @@
+As concerns over ingredient safety and environmental health continue to rise, transparency in consumer product labeling has become an essential part of public health policy. In California, the Safe Cosmetics Program (CSCP) under the California Department of Public Health (CDPH) enforces rigorous reporting requirements for cosmetic products that contain ingredients known or suspected to cause cancer, birth defects, or reproductive harm. This initiative not only strengthens consumer awareness but also provides researchers, policymakers, and advocates with a powerful dataset for evaluating trends in chemical exposure across the personal care industry.
+However, due to the large volume and complexity of the data—which includes product names, chemical identifiers (CAS numbers), reporting dates, categories, and manufacturer information—extracting meaningful, actionable insights requires sophisticated analysis and visualization techniques.
+To meet this challenge, we developed SafeBeauty: California Cosmetic Chemical Insights—a Python-powered analytics project that leverages advanced data tools like Pandas, NumPy, Seaborn, and Matplotlib. This platform enables a clear and compelling exploration of chemical usage patterns in cosmetic products sold throughout California.
+By utilizing Python’s capabilities for data wrangling and visual storytelling, this dashboard empowers users to:
+•	Identify the most frequently reported hazardous chemicals across product categories and brands.
+•	Examine ingredient usage trends within specific cosmetic categories such as hair care, skincare, and lip products.
+•	Map the relationship between brands and chemical risk to uncover transparency gaps or compliance challenges.
+•	Analyze the diversity of chemical usage among the top 10 cosmetic brands.
+•	Explore potential correlations between the number of reported chemicals and a product’s longevity on the market, including whether it was discontinued or reformulated.
+Each module is designed to provide stakeholders—from regulatory agencies and public health researchers to environmentally conscious consumers—with deep, customizable insights. Users can filter by chemical name, product category, brand, or date to hone in on specific trends or concerns.
+
+ 
