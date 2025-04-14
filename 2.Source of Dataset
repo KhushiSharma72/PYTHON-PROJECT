@@ -1,0 +1,27 @@
+The dataset utilized in this project has been sourced from the California Safe Cosmetics Program (CSCP), which is maintained by the California Department of Public Health (CDPH). The CSCP database is a public-facing resource that collects and discloses information about cosmetic products sold in California that contain ingredients known or suspected to cause cancer, birth defects, or other reproductive harm, as required under the California Safe Cosmetics Act of 2005.
+This initiative plays a critical role in promoting product safety, enabling transparency, and encouraging responsible practices within the cosmetics and personal care industry. The CSCP database serves as a valuable foundation for research into ingredient safety, consumer protection, and market compliance with public health standards.
+The specific dataset used in this analysis contains comprehensive records of cosmetic product labels reported to the program, along with detailed information about chemical ingredients, product classifications, and company-level disclosures. It facilitates an in-depth examination of chemical prevalence, reporting trends, and brand behavior over time.
+🔗 Dataset Source: https://catalog.data.gov/dataset/chemicals-in-cosmetics-d55bf
+________________________________________
+Key Features of the Dataset:
+•	Attributes:
+o	Product Label Name
+o	Company/Manufacturer Name
+o	Product Brand
+o	Product Category (e.g., Hair Care, Skin Care, Lip Products)
+o	Chemical Name and CAS Number
+o	Number of Reported Chemicals per Product
+o	Dates of Reporting, Reformulation, or Discontinuation
+•	Coverage:
+o	Cosmetic and personal care products sold in California
+o	Reports submitted by manufacturers, packers, or distributors since January 1, 2007
+o	Includes both active and discontinued/reformulated products
+•	Format:
+o	CSV (Comma-Separated Values)
+o	Cleaned and processed using Pandas for analysis in Python
+•	Purpose:
+o	To support analytical tasks related to ingredient risk profiling, brand transparency assessment, chemical usage trends, and regulatory compliance monitoring
+o	Enables comparative analysis across brands, categories, and timeframes
+o	Aids policymakers, researchers, and consumers in making informed decisions about cosmetic safety and public health
+________________________________________
+This dataset was downloaded in .CSV format, and preprocessing tasks such as handling missing values, filtering relevant columns, and categorizing chemicals were carried out using Python’s Pandas library. The structured nature of the dataset, combined with its public health relevance, makes it ideal for visual analytics, risk mapping, and strategic insights into the state of cosmetic product safety in California.
